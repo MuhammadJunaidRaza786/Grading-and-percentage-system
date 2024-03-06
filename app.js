@@ -1,6 +1,6 @@
 var T_Marks = +prompt("Enter the total numbers");
 var M_Marks = +prompt("Enter the Maximum Marks")
-var percentage = T_Marks/M_Marks * 100
+var percentage = (T_Marks/M_Marks * 100).toFixed(2)
 document.write("Your percentage is " + percentage + "% <br>")
 
 if (percentage >= 90){
